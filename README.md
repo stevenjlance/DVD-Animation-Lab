@@ -11,8 +11,8 @@ Back before everything was digitized, movies and TV shows could be bought on DVD
 ![](assets/exemplar.gif)
 
 1. Create variables to store the x/y position and speed.
-2. **MILD** 🌶: Have the image move from the top to the bottom of the page.
-3. **MILD** 🌶: Have the image move from left to right when the play button is pressed.
+2. **MILD** 🌶: Reverse the direction of the logo if the image is past the left edge of the screen the screen.
+3. **MILD** 🌶: Have the image move from the top to the bottom of the page.
 4. **MEDIUM** 🌶🌶: Reverse the direction of the logo if the image is past the right edge of the screen or past the left edge of the screen 
 5. **MEDIUM** 🌶🌶: Reverse the direction of the logo if the image is past the top edge of the screen or past the bottom edge of the screen 
 6. **SPICY** 🌶🌶🌶: Have the image change to a random color every time it hits the wall. **HINT**: Look back at how `tint()` works for images.
